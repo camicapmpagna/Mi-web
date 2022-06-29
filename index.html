@@ -10,26 +10,41 @@
   <title>Mi primer pagina web</title>
 </head>
 
-<body class="fondo__rosado">
+<body background="https://img.freepik.com/vector-gratis/fondo-abstracto-triangulo_1164-1648.jpg?t=st=1656466497~exp=1656467097~hmac=84cb9bea5bd964d328d40ffca38b42d0898e8ffc07540924e082235e56b3c0aa&w=740">
   <header class="cabecera">
 
     <div>
       <img src="./img/Logo 2 (Oscuro).jpeg" width="200" alt="">
     </div>
 
-
-    <nav class="nav">
-
-      <ul class="lista">
-        <li class="lista__item"> <a href="./index.html">Nosotros</a> </li>
-        <li class="lista__item"> <a href="./page/quienesomos.html">Quienes somos</a> </li>
-        <li class="lista__item"> <a href="./page/quehacemos.html">Que hacemos</a> </li>
-        <li class="lista__item"> <a href="./page/comotrabajamos.html">Como trabajamos</a> </li>
-        <li class="lista__item"> <a href="./page/Queremoscompartir.html">Para compartir con usterdes!!!</a> </li>
-        <li class="lista__item"> <a href="./page/contacto.html">Contacto</a> </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Nosotros <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./page/quienesomos.html">Quienes somos<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./page/quehacemos.html">Que hacemos<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./page/comotrabajamos.html">Como trabajamos<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./page/queremoscompartir.html">Para compartir con ustedes!!!<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./page/contacto.html">Contacto <span class="sr-only">(current)</span></a>
+          </li>
+         
+        </ul>
+      </div>
     </nav>
-
   </header>
 
   <main>
@@ -40,23 +55,33 @@
       </article>
     </section>
 
-    <div class="grid-inicio">
-      <div class="caja1"> <h2> Conocenos!!! </h2> </div> 
-      <div class="caja2"> <img class="fotos" src="./img/Quienes_somos.jpg" width="300"alt=""></div>
-      <div class="caja3">
-        <p class="presentacion">Nos dedicamos a realizar productos caseros, con amor y dedicación, adaptado a las
+   <div class="d-flex justify-content-around"> 
+    <div class="card col-5 mt-5 g-5">
+      <img class="card-img" src="./img/Quienes_somos.jpg" alt="Card image">
+      <div class="card-img-overlay">
+      </div>
+    </div>
+    <div class="card col-5 mt-5 g-5">
+      <div class="card-body">
+        <h4 class="card-title mt-5">Conocenos!!! </h4>
+        <p class="card-text mt-5">
+          Nos dedicamos a realizar productos caseros, con amor y dedicación, adaptado a las
         necesidades de cada uno (celiacos, vegetarianos, etc).
         Hacemos diferentes cosas, tato dulces, que son nuestra especialidad, como saladas para copetín.
         También nos gusta innovar con propuestas para días especiales, de la madre, padre, abuelos, etc.
         Los invitamos a que le den una mirada y se deleiten con las opciones que tenemos para ofrecerles!!
-       </p>
-      </div>
-      <div class="caja4">
-        <footer>  
-         <p>Copyright. &copy; Todos los derechos reservados</p>
-        </footer> 
+        </p>
       </div>
     </div>
+   </div>
+  
+    
+    
+
+  <footer>  
+         <p>Copyright. &copy; Todos los derechos reservados</p>
+  </footer> 
+      
      
 
    

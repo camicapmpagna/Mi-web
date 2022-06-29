@@ -5,8 +5,12 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, #FFC0D3, #FF5C8D);;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 
 .cabecera {
     display: flex;
@@ -299,6 +303,8 @@ footer {
         flex-direction: column;
     } 
 }
+
+
 
 
 
