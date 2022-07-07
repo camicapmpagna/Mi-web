@@ -1,0 +1,47 @@
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  
+  .cabecera {
+      display: flex;
+      justify-content: space-around;
+      background-image: url(https://es.habcdn.com/photos/project/medium/utensilios-de-cocina-2397814.jpg);
+      align-items: center;
+      width: 100%;
+      padding: 1rem;
+      flex-wrap: wrap;
+      background-repeat: no-repeat;
+      background-position: center;
+  
+  }
+  
+  .nav {
+      width: 90vw;
+      display: flex;
+  }
+  
+  .lista {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      
+  }
+  
+  .lista__item {
+      margin-left: 2.9rem;
+      list-style-type: none;
+  }
+  
+  
+  .lista__item a {
+      text-decoration: none;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1.2rem;
+      font-weight: bolder;
+      color: black;
+      
+  }
