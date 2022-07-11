@@ -313,6 +313,11 @@ footer {
     background-color: #FFC4C4;
 }
 
+.card-img {
+    max-width: 100%;
+    height: auto ;
+}
+
 
 
 
