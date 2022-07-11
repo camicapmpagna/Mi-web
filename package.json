@@ -5,7 +5,7 @@
   "name": "confiteria_paradisso",
   "scripts": {
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-    "build:css": "node-sass --output-style compressed scss/main.scss css/estilos.css"
+    "build:css": "node-sass --output-style compressed scss/index.scss css/estilos.css"
   },
   "version": "1.0.0",
   "devDependencies": {

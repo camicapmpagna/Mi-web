@@ -1,3 +1,23 @@
+header {
+    @include flex (row, space-around, center);
+
+    .cabecera {
+        display: flex;
+        background-image: url(https://es.habcdn.com/photos/project/medium/utensilios-de-cocina-2397814.jpg);
+        width: 100%;
+        padding: 1rem;
+        flex-wrap: wrap;
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+    }
+}
+
+
+
+
+
 body {
     background-position: center center;
     background-repeat: no-repeat;
