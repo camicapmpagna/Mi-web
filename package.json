@@ -1,15 +1,27 @@
 {
-  "author": "Camila",
-  "description": "mi_web",
-  "license": "MIT",
-  "name": "confiteria_paradisso",
-  "scripts": {
-    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-    "build:css": "node-sass --output-style compressed scss/index.scss css/estilos.css"
-  },
+  "name": "mi_web",
   "version": "1.0.0",
-  "devDependencies": {
+  "description": "confiteriaparadisso",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-scss": "node-sass --include-path scss scss/index.scss assets/css/main.css",
+    "watch-scss": "nodemon -e scss -x \"npm run build-scss\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camicapmpagna/Mi-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
     "node-sass": "^4.14.1",
-    "nodemon": "^2.0.4"
-  }
+    "nodemon": "^2.0.19"
+  },
+  "bugs": {
+    "url": "https://github.com/camicapmpagna/Mi-web/issues"
+  },
+  "homepage": "https://github.com/camicapmpagna/Mi-web#readme"
 }

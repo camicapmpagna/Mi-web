@@ -1,94 +1,96 @@
+* {
+  padding: 0%;
+  margin: 0%; }
 
+ul {
+  list-style-type: none; }
 
+img {
+  width: 100%; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  header.cabecera {
+    display: flex;
+    background-image: url(https://es.habcdn.com/photos/project/medium/utensilios-de-cocina-2397814.jpg);
+    width: 100%;
+    padding: 1rem;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-position: center; }
+    header.cabecera div img {
+      width: 200px;
+      height: auto; }
 
 h1 {
-  font-family: $fuente;
-  color: $color-principal;
-  text-align: center;
-  
-
-}
+  font-family: "Times New Roman", Times, serif;
+  color: #000000;
+  text-align: center; }
 
 p {
   line-height: 1.5rem;
-  font-family: $fuente;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.1rem;
   font-weight: bolder;
   padding: 10px;
-  margin: 10px;
-
-}
+  margin: 10px; }
 
 h2 {
-  color: $color-principal;
-  font-family: $fuente;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.2rem;
   font-style: italic;
   font-weight: bold;
   text-decoration: underline;
   padding: 1rem;
-  margin: 2rem;
-
-}
+  margin: 2rem; }
 
 .disenolistas {
   padding: 1.7rem;
   margin: auto;
-  font-family: $fuente
-}  
+  font-family: "Times New Roman", Times, serif; }
 
 .historia {
-  font-family: $fuente;
+  font-family: "Times New Roman", Times, serif;
   margin: 2rem;
   word-spacing: 0.5rem;
-  line-height: 1.5rem;
-}
-
+  line-height: 1.5rem; }
 
 .formulario {
   padding: 1rem;
   margin: 1rem;
   border: black;
   background-color: #FDEFF4;
-  font-family: $fuente
-}
-
+  font-family: "Times New Roman", Times, serif; }
 
 .presentacion {
   font-weight: bolder;
   font-size: 1.2rem;
   color: black;
-  width: 700px; 
+  width: 700px;
   flex-direction: column;
-  margin: 2rem;
-}
-
+  margin: 2rem; }
 
 .deco {
   display: flex;
-  margin-bottom: 1rem;
-
-  .fotos {
+  margin-bottom: 1rem; }
+  .deco .fotos {
     padding: 1.5rem;
     border-radius: 3rem;
     width: 30%;
-    height: auto;
-  }
-
-}
+    height: auto; }
 
 footer {
   margin: 2.5rem;
   font-size: 1rem;
   font-weight: lighter;
-  text-align: center;
-}
+  text-align: center; }
 
 #inicio {
-  padding: 1.3rem;
-
-}
-
+  padding: 1.3rem; }
 
 .grid-container {
   display: grid;
@@ -97,146 +99,125 @@ footer {
   gap: 20px;
   padding: 20px;
   margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-
+  margin-bottom: 20px; }
 
 .grid-item1 {
   background-image: url(../img/Alfajores-brownie.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  margin-bottom: 30px;
-
-}
+  margin-bottom: 30px; }
 
 .grid-item2 {
   background-image: url(../img/Caja-masas.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 30px;
-  margin-left: 30px;
-
-}
+  margin-left: 30px; }
 
 .grid-item3 {
   background-image: url(../img/pan-dulce.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  margin-bottom: 30px;
-
-}
+  margin-bottom: 30px; }
 
 .grid-item4 {
   background-image: url(../img/pasta-frola.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .grid-item5 {
   background-image: url(../img/Pebetes.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .grid-item6 {
   background-image: url(../img/scones.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 20px;
-
-}
+  margin-top: 20px; }
 
 .grid-item7 {
   background-image: url(../img/Tableta-choco.jpg);
   background-size: 150px;
   background-repeat: no-repeat;
   margin-left: 30px;
-  margin-top: 20px;
- 
-}
+  margin-top: 20px; }
 
 .grid-item8 {
   background-image: url(../img/CheesCake.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 20px;
-  margin-left: 16px;
-
-}
+  margin-left: 16px; }
 
 .grid-item9 {
   background-image: url(../img/Torta-cumple.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 20px;
-
-}
+  margin-top: 20px; }
 
 .grid-item10 {
   background-image: url(../img/Torta-oreo.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 20px;
-
-}
+  margin-top: 20px; }
 
 .grid-inicio {
   display: grid;
   height: 600px;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: 'cabecera cabecera'
-                       'foto texto'
-                       'footer footer'; 
-  grid-template-rows: 20% 65% 15%; 
+  grid-template-areas: 'cabecera cabecera' 'foto texto' 'footer footer';
+  grid-template-rows: 20% 65% 15%;
   margin: 30px;
   row-gap: 40px;
-  justify-content: center;
-    
-}
+  justify-content: center; }
 
 .caja1 {
   grid-area: cabecera;
   flex-direction: column;
-  text-align: center;
-}
+  text-align: center; }
 
 .caja2 {
   grid-area: foto;
   flex-direction: column;
-  justify-items: center;
-}
+  justify-items: center; }
 
 .caja3 {
   grid-area: texto;
   flex-direction: column;
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .caja4 {
   grid-area: footer;
-  text-align: center;
-}
-
-
+  text-align: center; }
 
 .navbar-nav {
-  color: $color-principal;
-}
+  color: #000000; }
 
 .nav-item:hover {
-  background-color: $color-secundario;
-}
+  background-color: #FFC0D3; }
 
-.card-text  { 
-  background-color: $color-secundario;
-}
+.card-text {
+  background-color: #FFC0D3; }
 
+@media screen and (max-width: 840px) {
+  .nav {
+    flex-direction: column; } }
 
+@media screen and (max-width: 601px) {
+  .nav {
+    flex-direction: column; } }
 
+@media screen and (max-width: 840px) {
+  .grid-inicio {
+    display: flex;
+    flex-direction: column; } }
 
-
-  
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
