@@ -8,6 +8,11 @@ ul {
 img {
   width: 100%; }
 
+h1, h2 {
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline; }
+
 header {
   display: flex;
   flex-direction: row;
@@ -26,9 +31,11 @@ header {
       height: auto; }
 
 h1 {
-  font-family: "Times New Roman", Times, serif;
-  color: #000000;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.6rem;
+  font-style: italic;
+  margin-top: 10px; }
 
 p {
   line-height: 1.5rem;
@@ -39,12 +46,9 @@ p {
   margin: 10px; }
 
 h2 {
-  color: #000000;
-  font-family: "Times New Roman", Times, serif;
   font-size: 2.2rem;
   font-style: italic;
-  font-weight: bold;
-  text-decoration: underline;
+  font-weight: lighter;
   padding: 1rem;
   margin: 2rem; }
 

@@ -2,11 +2,12 @@
 
 
 h1 {
-  font-family: $fuente;
-  color: $color-principal;
+  @extend %titulos;
   text-align: center;
-  
-
+  font-weight: bold;
+  font-size: 2.6rem;
+  font-style: italic;
+  margin-top: 10px;
 }
 
 p {
@@ -20,12 +21,10 @@ p {
 }
 
 h2 {
-  color: $color-principal;
-  font-family: $fuente;
+  @extend %titulos;
   font-size: 2.2rem;
   font-style: italic;
-  font-weight: bold;
-  text-decoration: underline;
+  font-weight: lighter;
   padding: 1rem;
   margin: 2rem;
 

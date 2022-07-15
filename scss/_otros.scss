@@ -22,5 +22,11 @@ $fuente:'Times New Roman', Times, serif;
 $color-principal: #000000;
 $color-secundario: #FFC0D3;
 
+%titulos {
+    color: $color-principal;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
 
 
