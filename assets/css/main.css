@@ -40,8 +40,8 @@ h1 {
 p {
   line-height: 1.5rem;
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.1rem;
-  font-weight: bolder;
+  font-size: 1.2rem;
+  font-weight: lighter;
   padding: 10px;
   margin: 10px; }
 
@@ -220,12 +220,6 @@ footer {
 .list-group {
   font-family: "Times New Roman", Times, serif;
   color: #000000; }
-
-.card-deck {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: none; }
 
 @media screen and (max-width: 840px) {
   .nav {
