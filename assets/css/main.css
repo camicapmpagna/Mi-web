@@ -221,6 +221,12 @@ footer {
   font-family: "Times New Roman", Times, serif;
   color: #000000; }
 
+.card-deck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: none; }
+
 @media screen and (max-width: 840px) {
   .nav {
     flex-direction: column; } }
