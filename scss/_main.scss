@@ -27,7 +27,15 @@ h2 {
   font-weight: lighter;
   padding: 1rem;
   margin: 2rem;
+}
 
+h3 {
+  @extend %titulos;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 2.4rem ;
+  margin-bottom: 2.4rem;
 }
 
 .disenolistas {
@@ -220,8 +228,6 @@ footer {
   text-align: center;
 }
 
-
-
 .navbar-nav {
   color: $color-principal;
 }
@@ -234,6 +240,14 @@ footer {
   background-color: $color-secundario;
 }
 
+.card-img2 {
+  margin-top: 30px;
+}
+
+.list-group {
+  font-family: $fuente;
+  color: $color-principal;
+}
 
 
 
