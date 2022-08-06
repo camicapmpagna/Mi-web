@@ -150,15 +150,13 @@ footer {
   color: #000000; }
 
 .carousel-inner {
-  width: 60%;
-  margin-left: 20%;
+  width: auto;
   margin-top: 7%;
   margin-bottom: 20%;
-  height: 400px; }
-
-.carousel-inner img {
-  width: auto;
-  max-height: 400px; }
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 500px;
+  justify-content: center; }
 
 @media screen and (max-width: 840px) {
   .nav {
