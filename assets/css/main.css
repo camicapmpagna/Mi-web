@@ -107,7 +107,9 @@ footer {
   display: grid;
   height: 600px;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: 'cabecera cabecera' 'foto texto' 'footer footer';
+  grid-template-areas: 'cabecera cabecera'
+ 'foto texto'
+ 'footer footer';
   grid-template-rows: 20% 65% 15%;
   margin: 30px;
   row-gap: 40px;
@@ -150,13 +152,10 @@ footer {
   color: #000000; }
 
 .carousel-inner {
-  width: auto;
-  margin-top: 7%;
-  margin-bottom: 20%;
-  margin-left: 20%;
-  margin-right: 20%;
-  height: 500px;
-  justify-content: center; }
+  width: 700px;
+  height: 700px;
+margin: auto;
+margin-top: 70px; }
 
 @media screen and (max-width: 840px) {
   .nav {
